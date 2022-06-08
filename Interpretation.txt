@@ -1,0 +1,31 @@
+INTERPRETATION CAS D'UTILISATION
+	
+	Acteur 
+		**primaire
+			--propriètaire co-propriétaire membre domicile pièces objet
+			--co-propriétaire
+			--membre
+			--visiteur
+		**secondaire
+			--google API
+	
+	Fonctionnalité
+		--propriétaire :
+			**création d'un domicile
+			**après, doit rechercher de l'adresse (include)
+			**modification des rôles user
+		--Co-propriétaire:
+			**création de nouvelle pièces
+			**ajouter un objet connecter 
+			** après doit mettre en place un objet dans une pièce (include)
+		--Membre 
+			**récupération de la liste des pièces
+			**après doit passer à la récupération de la listes des objets connecter (include)
+			**puis peut faire la mise en place d'un objet dans une pièce (extends)
+			**ou peut passer d'une modification d'un objet connecter (extends)
+		--Visiteur 
+			**authentification
+		--google API
+			**recherche de l'adresse
+
+
